@@ -30,8 +30,8 @@ public class Ejercicio2 {
             "Pedro\n" +
             "Ana\n" +
             "Luis";
-    static String ruta = "C:\\Users\\DIEGO CURRÁS\\Desktop\\DAM2\\Acceso_Datos\\Trimestre_1\\AD_Practica1_Ex1\\examen\\alumnos.txt";
-    static void main() {
+    static String ruta = "C:\\Users\\DIEGO CURRAS\\Desktop\\Carpeta_FP\\DAM\\AD\\1_Trimestre\\examen\\alumnos.txt";
+    public static void main(String[] args) throws IOException {
 
     // Añadir Texto
         try (BufferedWriter escritor =
@@ -65,7 +65,5 @@ public class Ejercicio2 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }

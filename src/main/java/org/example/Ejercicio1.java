@@ -21,7 +21,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Ejercicio1 {
-    static void main() throws IOException {
+    static void main(String[] args) throws IOException {
         File folder = new File("C:\\Users\\DIEGO CURRÁS\\Desktop\\DAM2\\Acceso_Datos\\Trimestre_1\\AD_Practica1_Ex1\\examen");
         // En caso de hacer un archivo podemos especificar el method con 2 argumentos, (ruta, archivo)
         File file = new File(folder,"alumnos.txt");
